@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-30T04:24:21 EST" name="Suite" finished-at="2024-12-30T04:25:30 EST" duration-ms="68839">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationsTest.productErrorValidations()[pri:0, instance:Test.SeleniumFramework.Tests.ErrorValidationsTest@266374ef]" name="productErrorValidations" class="Test.SeleniumFramework.Tests.ErrorValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" name="submitOrder" class="Test.SeleniumFramework.Tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-12-30T04:24:21 EST" name="Error Validations Test" finished-at="2024-12-30T04:25:10 EST" duration-ms="48920">
+      <class name="Test.SeleniumFramework.Tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.SeleniumFramework.Tests.ErrorValidationsTest@266374ef]" started-at="2024-12-30T04:24:21 EST" name="launchApplication" finished-at="2024-12-30T04:24:37 EST" duration-ms="16575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidations()[pri:0, instance:Test.SeleniumFramework.Tests.ErrorValidationsTest@266374ef]" started-at="2024-12-30T04:24:37 EST" name="LoginErrorValidations" finished-at="2024-12-30T04:24:43 EST" duration-ms="5798" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect email  password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email  password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at Test.SeleniumFramework.Tests.ErrorValidationsTest.LoginErrorValidations(ErrorValidationsTest.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SeleniumFramework.Tests.ErrorValidationsTest@266374ef]" started-at="2024-12-30T04:24:44 EST" name="tearDown" finished-at="2024-12-30T04:24:45 EST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.SeleniumFramework.Tests.ErrorValidationsTest@266374ef]" started-at="2024-12-30T04:24:45 EST" name="launchApplication" finished-at="2024-12-30T04:24:59 EST" duration-ms="13511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidations()[pri:0, instance:Test.SeleniumFramework.Tests.ErrorValidationsTest@266374ef]" started-at="2024-12-30T04:24:59 EST" name="productErrorValidations" finished-at="2024-12-30T04:25:09 EST" duration-ms="10051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SeleniumFramework.Tests.ErrorValidationsTest@266374ef]" started-at="2024-12-30T04:25:09 EST" name="tearDown" finished-at="2024-12-30T04:25:10 EST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.SeleniumFramework.Tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-12-30T04:24:21 EST" name="Submit Order Test" finished-at="2024-12-30T04:25:30 EST" duration-ms="68815">
+      <class name="Test.SeleniumFramework.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:24:22 EST" name="launchApplication" finished-at="2024-12-30T04:24:35 EST" duration-ms="13050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:24:35 EST" name="submitOrder" data-provider="getData" finished-at="2024-12-30T04:24:53 EST" duration-ms="18221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Naveen@7275, product=BANARSI SAREE, email=np26900@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:24:53 EST" name="tearDown" finished-at="2024-12-30T04:24:54 EST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:24:54 EST" name="launchApplication" finished-at="2024-12-30T04:25:05 EST" duration-ms="11191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:25:05 EST" name="submitOrder" data-provider="getData" finished-at="2024-12-30T04:25:16 EST" duration-ms="10519" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qwerty@7275, product=ADIDAS ORIGINAL, email=zxc1234@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:25:16 EST" name="tearDown" finished-at="2024-12-30T04:25:16 EST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:25:16 EST" name="launchApplication" finished-at="2024-12-30T04:25:26 EST" duration-ms="10301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:25:26 EST" name="OrderHistoryTest" finished-at="2024-12-30T04:25:29 EST" depends-on-methods="Test.SeleniumFramework.Tests.SubmitOrderTest.submitOrder" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.SeleniumFramework.Tests.SubmitOrderTest@7de62196]" started-at="2024-12-30T04:25:29 EST" name="tearDown" finished-at="2024-12-30T04:25:30 EST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.SeleniumFramework.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
